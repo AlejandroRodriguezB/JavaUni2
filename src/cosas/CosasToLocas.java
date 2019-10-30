@@ -39,8 +39,18 @@ public class CosasToLocas {
         System.out.println(result);
     }
     
-    
-    
+    //sub programa que nos dice si un numero es divisor de otro
+    public boolean MayorEnt(int a , int b ){
+        boolean c;
+        if (a%b == 0 ){
+            c=true;
+        }
+        else{
+            c=false;
+        }
+        
+        return c;
+    }
     
     public int suma(int a, int b){
         int suma;
