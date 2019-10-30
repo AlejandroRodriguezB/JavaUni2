@@ -39,6 +39,19 @@ public class CosasToLocas {
         System.out.println(result);
     }
     
+    //sub programa que nos dice si un numero es primo
+    public boolean EsPrimo(int a){
+        boolean primo = true;
+        //saber si un numero es primo
+        for(int w =a-1;primo && w>1;w--){
+            if (a%w==0){
+                primo = false;
+            break;
+            }    
+        }
+        return primo;
+    }
+    
     //sub programa que nos dice si un numero es divisor de otro
     public boolean MayorEnt(int a , int b ){
         boolean c;
