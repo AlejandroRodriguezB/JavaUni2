@@ -52,6 +52,7 @@ public class CosasToLocas {
         return c;
     }
     
+    //sub programa suma
     public int suma(int a, int b){
         int suma;
         suma= a+b;
@@ -63,6 +64,7 @@ public class CosasToLocas {
         suma= a+b;
     
     }
+    //sub programa para saber el mayor de 2 numeros
     public int mayor(int a, int b){
         int mayor;
         if(a<b){
@@ -73,6 +75,7 @@ public class CosasToLocas {
         }
         return mayor;
     }
+    //sub programa para saber el mayor de 3 numeros
     public int mayor2(int a, int b, int c){
         int mayor;
         if(a<b && c<b ){
@@ -86,7 +89,7 @@ public class CosasToLocas {
         }
         return mayor;
     }
-    
+    //sub programa que nos dice si una letra es vocal o no
     public boolean vocal(char a){
         boolean VyFvocal;
         if(a=='a'|| a=='e' || a=='i'|| a=='o' || a=='u'){
